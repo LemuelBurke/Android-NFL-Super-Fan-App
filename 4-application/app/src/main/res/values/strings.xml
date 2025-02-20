@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">mob-dev-portfolio</string>
+    <string name="app_name">NFL Superfan</string>
+    <string name="welcomeMessagePlaceholder">Welcome!</string>
 </resources>
