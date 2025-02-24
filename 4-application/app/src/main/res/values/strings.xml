@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">NFL Superfan</string>
-    <string name="welcomeMessagePlaceholder">Welcome!</string>
+    <string name="app_name">NFL Tracker</string>
+    <string name="welcomePlaceholder">Hello World!</string>
 </resources>
