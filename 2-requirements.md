@@ -10,7 +10,6 @@ Student ID: `23015833`
 - The application must interact with the calender to allow users to "save the date" of an upcoming game.
 - The application must notify users of when a game involving their favourited team is about to start or any game they've enabled notification for is about to start
 - The application must be able to pull from the third-party api.
-- The application should have 
 - The application must check if the device is connected to the internet.
 - The application must be able to display a webview of https://www.nfl.com/news/ to users when they click on the news tab
 
