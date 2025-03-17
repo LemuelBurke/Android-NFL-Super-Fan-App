@@ -23,3 +23,13 @@ Student ID: `23015833`
 - The application should upon launch should load to home
 - The application should display a loading screen when trying to reach the api
 - The application should upon its first launch on a device should prompt a user to select their favourite NFL team
+
+**COMMENTS**
+This NFL fan app is well-designed for British-based casual American football fans, offering a mix of real-time updates, personalized content, and ease of navigation.
+The functional requirements ensure that users can track their favorite team effortlessly, receive game notifications, and access live news and statistics.
+Features like calendar integration and webview for NFL news add to the app’s practicality. 
+
+On the non-functional side, consistency in design, responsiveness across screen sizes, and a locked portrait mode contribute to a smooth user experience. 
+While the app covers key functionalities effectively, offering more customization—such as different notification preferences or a dark mode—could enhance user engagement. 
+Overall, this is a promising app that successfully balances real-time sports updates with personalization, making it a valuable resource for NFL fans in the UK.
+
