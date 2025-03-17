@@ -23,3 +23,23 @@ Student ID: `23015833`
 - The application should upon launch should load to home
 - The application should display a loading screen when trying to reach the api
 - The application should upon its first launch on a device should prompt a user to select their favourite NFL team
+
+<!-- 
+
+This is a good set of requirements. You've captured the overall essence of the app. I have a couple of suggestions to make:
+
+- Which pages should they be able to navigate to from the bottom navigation bar? Be specific – imagine another engineer is going to take these and then implement them. Would you get back what you'd expected with these requirements, or would there be room for an engineer in a rush to claim they'd implemented all of them but the app was rather less than you'd hoped?
+
+- You don't need to specify _how_ you will implement particular aspects in the functional requirements (this can go in the API description), it's sufficient just to specify the functionality and then leave the implementation up to the implementer. (You could also put this into the non-functional requirements.)
+
+- What does the app need to pull from the third-party API? Specify.
+
+– Checking whether the app has access to the internet sounds useful, but is it a 'function' of the app? I think this probably needs to be in the NFR section (perhaps expanded to explain what should happen based on whether it's available or not).
+
+- Double-check for typos – there are a few to tidy up.
+
+- You can lock the app in portrait mode, but remember that rotation is not the only thing that causes a configuration change, so you'll still have to do some state management.
+
+Hope these are useful comments.
+
+-->
