@@ -20,7 +20,7 @@ With additional subpages which are accessed via general use of the app being:
 - etc.
 
 Personalisation:
-- The application must allow users to select their favorite NFL team for a personalized home page.
+- The application must allow users to select their favorite NFL team for a personalised home page.
 - The selected team should be saved using shared preferences.
 - The application must remember the selected favorite team and display relevant information about the team on the home page.
 
@@ -31,8 +31,9 @@ Game Scheduling & Notifications:
 
 Third-Party API Integration:
 - The application must fetch NFL team and game-related data from a third-party API.
-- The application must display real-time game scores, team statistics, and upcoming game schedules.
-- Internet Connectivity:
+- The application must display up-to-date game scores, team statistics, and upcoming game schedules.
+
+Internet Connectivity:
 - The application must check if the device is connected to the internet.
 - If there is no internet connection, the app should display an appropriate message and provide limited offline functionality where possible.
 
@@ -49,7 +50,7 @@ User Experience & Design:
 - The UI should be responsive and scale across different screen sizes.
 
 App Lifecycle & Performance:
-- The application should load directly to the home page upon launch/
+- The application should load directly to the home page upon launch.
 - A loading screen should be displayed when fetching data from the API.
 - On first launch, the application must prompt users to select their favorite NFL team before proceeding.
 
