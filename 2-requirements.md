@@ -3,26 +3,87 @@
 
 Student ID: `23015833`
 
-# Functional Requirements
-- The application must allow users to navigate to and from pages via the use of a bottom navigation bar.
-- The application must allow users to select their facourite NFL team for a personalised 'home' page, the selected team should be saved in shared_prefs.
-- The application must "remember" a users selected favourite team and display information regarding their favourite team on the homepage.
-- The application must interact with the calender to allow users to "save the date" of an upcoming game.
-- The application must notify users of when a game involving their favourited team is about to start or any game they've enabled notification for is about to start
-- The application must be able to pull from the third-party api.
+Functional Requirements
+
+Navigation:
+
+The application must allow users to navigate between pages using a bottom navigation bar.
+
+The bottom navigation bar should contain links to the following pages:
+
+- Home
+- 
+- Teams
+- 
+- News
+- 
+- Settings
+
+With additional subpages such as:
+- Statistics
+
+- Schedules
+
+- etc.
+
+
+Personalization:
+
+- The application must allow users to select their favorite NFL team for a personalized home page.
+- 
+- The selected team should be saved using shared preferences.
+- 
+- The application must remember the selected favorite team and display relevant information about the team on the home page.
+
+
+Game Scheduling & Notifications:
+
+- The application must interact with the device's calendar to allow users to "save the date" of an upcoming game.
+- 
+- The application must notify users when a game involving their favorited team is about to start.
+- 
+- Users should also be able to enable notifications for other games they are interested in.
+
+
+Third-Party API Integration:
+
+- The application must fetch NFL team and game-related data from a third-party API.
+- 
+- The application must display real-time game scores, team statistics, and upcoming game schedules.
+- 
+- Internet Connectivity:
+- 
 - The application must check if the device is connected to the internet.
-- The application must be able to display a webview of https://www.nfl.com/news/ to users when they click on the news tab
+- 
+- If there is no internet connection, the app should display an appropriate message and provide limited offline functionality where possible.
 
 
-# Non-Functional Requirements
+News WebView:
 
-- The application must be locked in portrait mode
-- The font used across the application should be consistant
-- The application should have consistant themes and styling
-- The application should scale between screen sizes
-- The application should upon launch should load to home
-- The application should display a loading screen when trying to reach the api
-- The application should upon its first launch on a device should prompt a user to select their favourite NFL team
+- The application must allow users to view the latest NFL news by displaying a web view of NFL News when they click on the news tab.
+
+
+#Non-Functional Requirements
+
+User Experience & Design:
+
+- The application must be locked in portrait mode.
+- 
+- The font used across the application should be consistent.
+- 
+- The application should have a uniform theme and styling.
+- 
+- The UI should be responsive and scale across different screen sizes.
+
+
+App Lifecycle & Performance:
+
+- The application should load directly to the home page upon launch.
+
+- A loading screen should be displayed when fetching data from the API.
+
+- On first launch, the application must prompt users to select their favorite NFL team before proceeding.
+
 
 <!-- 
 
