@@ -38,7 +38,7 @@ Third-Party API Integration:
 
 News WebView:
 - The application must allow users to view the latest NFL news by displaying a web view of NFL News when they click on the news tab.
-
+(https://www.nfl.com/news/)
 
 # Non-Functional Requirements
 
