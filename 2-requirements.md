@@ -13,7 +13,7 @@ The bottom navigation bar should contain links to the following pages:
 - Teams
 - News
 
-With additional subpages such which accessed through general use of the app such as:
+With additional subpages which accessed through general use of the app such as:
 - Settings
 - Statistics
 - Schedules
