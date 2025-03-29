@@ -15,4 +15,5 @@ To enhance user experience, the application checks for internet connectivity and
 
 References:
 Wroblewski, L. 2015. LukeW | Obvious Always Wins. Available at: https://www.lukew.com/ff/entry.asp?1945 [Accessed: 29 March 2025].
+
 Android. [no date]. Save key-value data. Available at: https://developer.android.com/training/data-storage/shared-preferences [Accessed: 29 March 2025].
