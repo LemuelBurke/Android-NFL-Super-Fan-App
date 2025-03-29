@@ -19,7 +19,7 @@ With additional subpages which are accessed via general use of the app being:
 - Schedules
 - etc.
 
-Personalization:
+Personalisation:
 - The application must allow users to select their favorite NFL team for a personalized home page.
 - The selected team should be saved using shared preferences.
 - The application must remember the selected favorite team and display relevant information about the team on the home page.
