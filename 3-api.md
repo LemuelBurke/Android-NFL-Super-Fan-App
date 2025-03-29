@@ -1,7 +1,7 @@
 **Mobile Development 2024/25 Portfolio**
 # API Description
 
-Student ID: `your id here`
+Student ID: `23015833`
 
 For navigation within the application, I'm using a Bottom Navigation Bar for seamless transitions between primary pages: Home, Teams, and News. Bottom Navigation was the most intuitive option, aligning with Wroblewski’s (Wroblewski 2015) principle that “Obvious Always Wins,” ensuring crucial features remain accessible rather than hidden behind menus. Tabs were considered but not chosen, as they better suit closely related content rather than distinct sections. Bottom Navigation bar's also offer ergonomic advantages, being positioned within thumb reach for most users.
 
