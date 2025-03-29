@@ -3,14 +3,12 @@
 
 Student ID: `23015833`
 
-Functional Requirements
+# Functional Requirements
 
 Navigation:
 
 The application must allow users to navigate between pages using a bottom navigation bar.
-
 The bottom navigation bar should contain links to the following pages:
-
 - Home
 - Teams
 - News
@@ -20,7 +18,6 @@ With additional subpages such as:
 - Statistics
 - Schedules
 - etc.
-
 
 Personalization:
 - The application must allow users to select their favorite NFL team for a personalized home page.
@@ -33,7 +30,6 @@ Game Scheduling & Notifications:
 - Users should also be able to enable notifications for other games they are interested in.
 
 Third-Party API Integration:
-
 - The application must fetch NFL team and game-related data from a third-party API.
 - The application must display real-time game scores, team statistics, and upcoming game schedules.
 - Internet Connectivity:
@@ -44,7 +40,7 @@ News WebView:
 - The application must allow users to view the latest NFL news by displaying a web view of NFL News when they click on the news tab.
 
 
-#Non-Functional Requirements
+# Non-Functional Requirements
 
 User Experience & Design:
 - The application must be locked in portrait mode.
@@ -53,7 +49,6 @@ User Experience & Design:
 - The UI should be responsive and scale across different screen sizes.
 
 App Lifecycle & Performance:
-
 - The application should load directly to the home page upon launch/
 - A loading screen should be displayed when fetching data from the API.
 - On first launch, the application must prompt users to select their favorite NFL team before proceeding.
