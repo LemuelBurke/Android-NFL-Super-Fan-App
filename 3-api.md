@@ -14,6 +14,7 @@ For third-party API integration, the application fetches NFL team and game-relat
 To enhance user experience, the application checks for internet connectivity and displays an appropriate message if offline. Limited offline functionality is available where feasible, ensuring users can still access stored data. Lastly, for news content, a WebView loads the latest NFL updates directly from the official NFL website, maintaining an in-app browsing experience without unnecessary redirections.
 
 References:
+
 Wroblewski, L. 2015. LukeW | Obvious Always Wins. Available at: https://www.lukew.com/ff/entry.asp?1945 [Accessed: 29 March 2025].
 
 Android. [no date]. Save key-value data. Available at: https://developer.android.com/training/data-storage/shared-preferences [Accessed: 29 March 2025].
