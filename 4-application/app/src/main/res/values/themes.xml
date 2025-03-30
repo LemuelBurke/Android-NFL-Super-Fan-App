@@ -10,15 +10,9 @@
         <item name="android:windowBackground">@color/dark_background</item>
         <item name="android:textColor">@color/white</item>
     </style>
-    <!-- Button Style -->
     <style name="ButtonStyle" parent="Widget.Material3.Button">
-        <!-- Set the background color of the button -->
         <item name="android:backgroundTint">@color/secondary_accent</item>
-
-        <!-- Set the text color of the button -->
         <item name="android:textColor">@color/white</item>
-
-        <!-- Set the ripple effect color -->
         <item name="rippleColor">@color/secondary_accent_variant</item>
     </style>
 </resources>

@@ -10,6 +10,6 @@
     <color name="dark_background">#2C2F33</color>
     <color name="dark_variant">#23272A</color>
     <color name="secondary_accent">#514D56</color>
-    <color name="secondary_accent_variant">#4B5A6B</color>
+    <color name="secondary_accent_variant">#514D99</color>
     <color name="buttonColor">#7289DA</color>
 </resources>
