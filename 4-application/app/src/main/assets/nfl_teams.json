@@ -5,7 +5,8 @@
     "shortName": "cowboys",
     "colour1": "#041E42",
     "colour2": "#869397",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 29
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "shortName": "patriots",
     "colour1": "#002244",
     "colour2": "#C60C30",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 3
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "shortName": "chiefs",
     "colour1": "#E31837",
     "colour2": "#FFB81C",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 17
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "shortName": "bills",
     "colour1": "#00338D",
     "colour2": "#C60C30",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 20
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "shortName": "dolphins",
     "colour1": "#008E97",
     "colour2": "#FC4C02",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 25
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "shortName": "jets",
     "colour1": "#125740",
     "colour2": "#000000",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 13
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "shortName": "ravens",
     "colour1": "#241773",
     "colour2": "#9E7C5D",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 5
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "shortName": "steelers",
     "colour1": "#000000",
     "colour2": "#FFB612",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 22
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "shortName": "bengals",
     "colour1": "#FB4F14",
     "colour2": "#000000",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 10
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "shortName": "titans",
     "colour1": "#0C2340",
     "colour2": "#4B92DB",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 6
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "shortName": "colts",
     "colour1": "#002C5F",
     "colour2": "#A5ACAF",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 21
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "shortName": "texans",
     "colour1": "#03202F",
     "colour2": "#A71930",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 26
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "shortName": "raiders",
     "colour1": "#000000",
     "colour2": "#A5ACAF",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 1
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "shortName": "chargers",
     "colour1": "#0080C6",
     "colour2": "#FFC20E",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 30
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "shortName": "broncos",
     "colour1": "#FB4F14",
     "colour2": "#002244",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 28
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "shortName": "cardinals",
     "colour1": "#97233F",
     "colour2": "#000000",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 11
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "shortName": "rams",
     "colour1": "#003594",
     "colour2": "#FFA300",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 31
   },
   {
     "id": 18,
@@ -141,7 +158,8 @@
     "shortName": "49ers",
     "colour1": "#AA0000",
     "colour2": "#B3995D",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 14
   },
   {
     "id": 19,
@@ -149,7 +167,8 @@
     "shortName": "seahawks",
     "colour1": "#002244",
     "colour2": "#69BE28",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 23
   },
   {
     "id": 20,
@@ -157,7 +176,8 @@
     "shortName": "vikings",
     "colour1": "#4F2683",
     "colour2": "#FFC62F",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 32
   },
   {
     "id": 21,
@@ -165,7 +185,8 @@
     "shortName": "packers",
     "colour1": "#203731",
     "colour2": "#FFB612",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 15
   },
   {
     "id": 22,
@@ -173,7 +194,8 @@
     "shortName": "bears",
     "colour1": "#0B162A",
     "colour2": "#C83803",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 16
   },
   {
     "id": 23,
@@ -181,7 +203,8 @@
     "shortName": "lions",
     "colour1": "#0076B6",
     "colour2": "#B0B7BC",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 7
   },
   {
     "id": 24,
@@ -189,7 +212,8 @@
     "shortName": "eagles",
     "colour1": "#004C54",
     "colour2": "#A5ACAF",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 12
   },
   {
     "id": 25,
@@ -197,7 +221,8 @@
     "shortName": "commanders",
     "colour1": "#773141",
     "colour2": "#FFB612",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 18
   },
   {
     "id": 26,
@@ -205,7 +230,8 @@
     "shortName": "panthers",
     "colour1": "#0085CA",
     "colour2": "#101820",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 19
   },
   {
     "id": 27,
@@ -213,7 +239,8 @@
     "shortName": "falcons",
     "colour1": "#A71930",
     "colour2": "#000000",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 8
   },
   {
     "id": 28,
@@ -221,7 +248,8 @@
     "shortName": "saints",
     "colour1": "#D3BC8D",
     "colour2": "#101820",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 27
   },
   {
     "id": 29,
@@ -229,7 +257,8 @@
     "shortName": "buccs",
     "colour1": "#D50A0A",
     "colour2": "#34302B",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 24
   },
   {
     "id": 30,
@@ -237,7 +266,8 @@
     "shortName": "giants",
     "colour1": "#0B2265",
     "colour2": "#A71930",
-    "conference": "NFC"
+    "conference": "NFC",
+    "apiId": 4
   },
   {
     "id": 31,
@@ -245,7 +275,8 @@
     "shortName": "browns",
     "colour1": "#311D00",
     "colour2": "#FF3C00",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 9
   },
   {
     "id": 32,
@@ -253,6 +284,7 @@
     "shortName": "jags",
     "colour1": "#006778",
     "colour2": "#D7A22A",
-    "conference": "AFC"
+    "conference": "AFC",
+    "apiId": 2
   }
 ]
