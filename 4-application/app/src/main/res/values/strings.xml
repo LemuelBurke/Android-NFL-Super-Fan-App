@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">NFL Tracker</string>
-    <string name="welcomePlaceholder">Hello World!</string>
+
+
+    <string name="stats">Stats</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="title_activity_team_selection">activity_team_selection</string>
+    <string name="app_name">NFL App</string>
+    <string name="fav_team_selection">Select a Team</string>
+    <string name="select_your_fav_nfl_team">Select a Team!</string>
+    <string name="nfc">NFC</string>
+    <string name="afc">AFC</string>
+    <string name="team_name">placeholder\n</string>
 </resources>

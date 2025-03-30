@@ -1,5 +1,7 @@
 package com.example.mob_dev_portfolio
 
+import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
@@ -12,6 +14,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var sharedPreferences: SharedPreferences
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -22,9 +27,16 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
+        sharedPreferences = getSharedPreferences("UserPreferences", MODE_PRIVATE)
+        val favoriteTeam = sharedPreferences.getString("favorite_team", null)
 
-        setSupportActionBar(toolbar)
+        if (favoriteTeam==null){
+            val intent = Intent(this, TeamSelectionActivity::class.java)
+            startActivity(intent)
+            finish()
+        } else {
+            toMainApp()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -43,7 +55,11 @@ class MainActivity : AppCompatActivity() {
                 recreate()
                 true
             }
-            else -> super.onOptionsItemSelected(item) // Fallthrough
+            else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    private fun toMainApp(){
+
     }
 }

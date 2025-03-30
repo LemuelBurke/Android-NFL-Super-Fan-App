@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "name": "Dallas Cowboys",
+    "shortName": "cowboys",
+    "colour1": "#003594",
+    "colour2": "#869397",
+    "conference": "NFC"
+  },
+  {
+    "id": 2,
+    "name": "New England Patriots",
+    "shortName": "patriots",
+    "colour1": "#002244",
+    "colour2": "#C60C30",
+    "conference": "AFC"
+  },
+  {
+    "id": 3,
+    "name": "Kansas City Chiefs",
+    "shortName": "chiefs",
+    "colour1": "#E31837",
+    "colour2": "#FFB81C",
+    "conference": "AFC"
+  },
+  {
+    "id": 4,
+    "name": "Buffalo Bills",
+    "shortName": "bills",
+    "colour1": "#00338D",
+    "colour2": "#C60C30",
+    "conference": "AFC"
+  },
+  {
+    "id": 5,
+    "name": "Miami Dolphins",
+    "shortName": "dolphins",
+    "colour1": "#008E97",
+    "colour2": "#F1A7B7",
+    "conference": "AFC"
+  },
+  {
+    "id": 6,
+    "name": "New York Jets",
+    "shortName": "jets",
+    "colour1": "#1C8A3C",
+    "colour2": "#FFFFFF",
+    "conference": "AFC"
+  },
+  {
+    "id": 7,
+    "name": "Baltimore Ravens",
+    "shortName": "ravens",
+    "colour1": "#241773",
+    "colour2": "#9E7C5D",
+    "conference": "AFC"
+  },
+  {
+    "id": 8,
+    "name": "Pittsburgh Steelers",
+    "shortName": "steelers",
+    "colour1": "#FFB81C",
+    "colour2": "#000000",
+    "conference": "AFC"
+  },
+  {
+    "id": 9,
+    "name": "Cincinnati Bengals",
+    "shortName": "bengals",
+    "colour1": "#FF6A13",
+    "colour2": "#000000",
+    "conference": "AFC"
+  },
+  {
+    "id": 10,
+    "name": "Tennessee Titans",
+    "shortName": "titans",
+    "colour1": "#4B92DB",
+    "colour2": "#4B92DB",
+    "conference": "AFC"
+  },
+  {
+    "id": 11,
+    "name": "Indianapolis Colts",
+    "shortName": "colts",
+    "colour1": "#002C5F",
+    "colour2": "#A5ACAF",
+    "conference": "AFC"
+  },
+  {
+    "id": 12,
+    "name": "Houston Texans",
+    "shortName": "texans",
+    "colour1": "#03202F",
+    "colour2": "#D50A0A",
+    "conference": "AFC"
+  },
+  {
+    "id": 13,
+    "name": "Las Vegas Raiders",
+    "shortName": "raiders",
+    "colour1": "#000000",
+    "colour2": "#A5ACAF",
+    "conference": "AFC"
+  },
+  {
+    "id": 14,
+    "name": "Los Angeles Chargers",
+    "shortName": "chargers",
+    "colour1": "#0085CA",
+    "colour2": "#FFD100",
+    "conference": "AFC"
+  },
+  {
+    "id": 15,
+    "name": "Denver Broncos",
+    "shortName": "broncos",
+    "colour1": "#003B49",
+    "colour2": "#FF6A13",
+    "conference": "AFC"
+  },
+  {
+    "id": 16,
+    "name": "Arizona Cardinals",
+    "shortName": "cardinals",
+    "colour1": "#E63946",
+    "colour2": "#1D3557",
+    "conference": "NFC"
+  },
+  {
+    "id": 17,
+    "name": "Los Angeles Rams",
+    "shortName": "rams",
+    "colour1": "#003594",
+    "colour2": "#5C2D91",
+    "conference": "NFC"
+  },
+  {
+    "id": 18,
+    "name": "San Francisco 49ers",
+    "shortName": "49ers",
+    "colour1": "#AA0000",
+    "colour2": "#B3995D",
+    "conference": "NFC"
+  },
+  {
+    "id": 19,
+    "name": "Seattle Seahawks",
+    "shortName": "seahawks",
+    "colour1": "#002D4B",
+    "colour2": "#007A33",
+    "conference": "NFC"
+  },
+  {
+    "id": 20,
+    "name": "Minnesota Vikings",
+    "shortName": "vikings",
+    "colour1": "#4F92B2",
+    "colour2": "#FFD700",
+    "conference": "NFC"
+  },
+  {
+    "id": 21,
+    "name": "Green Bay Packers",
+    "shortName": "packers",
+    "colour1": "#006747",
+    "colour2": "#FFB81C",
+    "conference": "NFC"
+  },
+  {
+    "id": 22,
+    "name": "Chicago Bears",
+    "shortName": "bears",
+    "colour1": "#0B162A",
+    "colour2": "#FFB81C",
+    "conference": "NFC"
+  },
+  {
+    "id": 23,
+    "name": "Detroit Lions",
+    "shortName": "lions",
+    "colour1": "#0076B6",
+    "colour2": "#B0B7BC",
+    "conference": "NFC"
+  },
+  {
+    "id": 24,
+    "name": "Philadelphia Eagles",
+    "shortName": "eagles",
+    "colour1": "#004C54",
+    "colour2": "#A5ACAF",
+    "conference": "NFC"
+  },
+  {
+    "id": 25,
+    "name": "Washington Commanders",
+    "shortName": "commanders",
+    "colour1": "#9E2A2F",
+    "colour2": "#FFB81C",
+    "conference": "NFC"
+  },
+  {
+    "id": 26,
+    "name": "Carolina Panthers",
+    "shortName": "panthers",
+    "colour1": "#0085CA",
+    "colour2": "#101820",
+    "conference": "NFC"
+  },
+  {
+    "id": 27,
+    "name": "Atlanta Falcons",
+    "shortName": "falcons",
+    "colour1": "#A71930",
+    "colour2": "#000000",
+    "conference": "NFC"
+  },
+  {
+    "id": 28,
+    "name": "New Orleans Saints",
+    "shortName": "saints",
+    "colour1": "#D3BC8D",
+    "colour2": "#101820",
+    "conference": "NFC"
+  },
+  {
+    "id": 29,
+    "name": "Tampa Bay Buccaneers",
+    "shortName": "buccaneers",
+    "colour1": "#D50A0A",
+    "colour2": "#0085CA",
+    "conference": "NFC"
+  },
+  {
+    "id": 30,
+    "name": "New York Giants",
+    "shortName": "giants",
+    "colour1": "#0B2265",
+    "colour2": "#A5ACAF",
+    "conference": "NFC"
+  },
+  {
+    "id": 31,
+    "name": "Cleveland Browns",
+    "shortName": "browns",
+    "colour1": "#311D00",
+    "colour2": "#FF3C00",
+    "conference": "AFC"
+  },
+  {
+    "id": 32,
+    "name": "Jacksonville Jaguars",
+    "shortName": "jaguars",
+    "colour1": "#006778",
+    "colour2": "#F1BE48",
+    "conference": "AFC"
+  }
+]
