@@ -10,12 +10,12 @@ Navigation:
 The application must allow users to navigate between pages using a bottom navigation bar.
 The bottom navigation bar should contain links to the following pages:
 - Home
-- Teams
+- Stats
 - News
 
 With additional subpages which are accessed via general use of the app being:
 - Settings
-- Statistics
+- Teams
 - Schedules
 - etc.
 
