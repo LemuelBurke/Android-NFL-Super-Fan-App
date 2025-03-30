@@ -1,7 +1,7 @@
 **Mobile Development 2024/25 Portfolio**
 # Overview
 
-Student ID: 23015833
+Student ID: '23015833'
 
 I aim to develop a National Football League (NFL) Fan app, with a target user demographic of British-based casual american football fans. The primary functionality of this app will be to display to users a number of statistics related to the sport to enhance a users knowledge, with additional functionality such as push notifications to inform users of when games are about to start and news stories to facilitate users to keep track of whats happening both on and off the pitch. Statistics such as scheduled game dates and times (in a users local timezone), game results, team statistics, players etc. will all be displayed within this system and will allow users to get on-demand accurate information. The implementation of push notification would be a useful functionality for users to toggle on and off so they know when games are about to start. Finally, the implementation of news stories means fans will never miss out on events such as player signings or swaps and staffing changes within their favourite team. Making this app their "go to" for information relating to the sport.
 
