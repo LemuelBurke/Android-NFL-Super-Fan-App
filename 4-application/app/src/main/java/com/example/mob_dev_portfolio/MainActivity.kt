@@ -7,6 +7,9 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,22 +26,21 @@ import retrofit2.Call
 import retrofit2.Callback
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var sharedPreferences: SharedPreferences
-    private lateinit var binding: ActivityMainBinding // Declare the binding object
+    private lateinit var binding: ActivityMainBinding
     private lateinit var offensiveAdapter: PlayerAdapter
     private lateinit var defensiveAdapter: PlayerAdapter
+    private var selectedSeason = "2023" // Default season
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // Initialize the binding object
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root) // Use the root view from the binding object
+        setContentView(binding.root)
 
-        // Handle edge-to-edge layout
-        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets -> // Change `binding.main` to `binding.root`
+        // Handle system insets
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
@@ -48,65 +50,78 @@ class MainActivity : AppCompatActivity() {
         sharedPreferences = getSharedPreferences("UserPreferences", MODE_PRIVATE)
         val favoriteTeam = sharedPreferences.getString("favorite_team", null)
 
-        // Set up RecyclerView with LinearLayoutManager
+        // Set up RecyclerView
         binding.offensiveRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.defensiveRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
 
+        // Set Home as selected on menu
+        binding.bottomNavigationView.selectedItemId = R.id.home
+        binding.bottomNavigationView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    // Already on home screen
+                    true
+                }
+
+                R.id.news -> {
+                    val intent = Intent(this, WebViewActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            }
+        }
+
         // If no favorite team is found, go to TeamSelectionActivity
         if (favoriteTeam == null) {
-            val intent = Intent(this, TeamSelectionActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, TeamSelectionActivity::class.java))
             finish()
         } else {
+            setupSeasonSpinner()
             toMainApp()
         }
 
         binding.settingsButton.setOnClickListener {
-            val intent = Intent(this, SettingsActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, SettingsActivity::class.java))
         }
     }
+
+    private fun setupSeasonSpinner() {
+        val seasons = listOf("2021", "2022", "2023")
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, seasons)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        binding.seasonSpinner.adapter = adapter
+
+        // Set default selection to 2023
+        val defaultIndex = seasons.indexOf("2023")
+        binding.seasonSpinner.setSelection(defaultIndex)  // Ensures 2023 is selected on launch
+
+        binding.seasonSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>, view: View?, position: Int, id: Long) {
+                selectedSeason = seasons[position] // Update selectedSeason
+                val apiId = sharedPreferences.getString("favourite_team_apiId", null)?.toIntOrNull()
+                if (apiId != null) {
+                    fetchPlayers(apiId) // Fetch players with new season
+                }
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>) {}
+        }
+    }
+
 
     private fun fetchPlayers(apiId: Int) {
         val apiKey = "ef4fa7259fecbfc5a063a3f379259983"
         val apiHost = "v1.american-football.api-sports.io"
 
-        RetrofitClient.apiService.getPlayers(apiKey, apiHost, 2023, apiId)
+        RetrofitClient.apiService.getPlayers(apiKey, apiHost, selectedSeason.toInt(), apiId)
             .enqueue(object : Callback<PlayerResponse> {
                 override fun onResponse(call: Call<PlayerResponse>, response: Response<PlayerResponse>) {
                     if (response.isSuccessful) {
                         val playerResponse = response.body()
-
                         if (playerResponse != null && playerResponse.response != null) {
                             val players = playerResponse.response
-
-                            // Sort players into offensive and defensive lists
-                            val offensivePlayers = mutableListOf<Player>()
-                            val defensivePlayers = mutableListOf<Player>()
-
-                            for (player in players) {
-                                // Check if position is null before accessing
-                                if (player.position != null) {
-                                    when (player.position) {
-                                        "QB", "RB", "WR", "TE", "OL" -> offensivePlayers.add(player)
-                                        "CB", "LB", "S", "DL", "DE" -> defensivePlayers.add(player)
-                                        else -> Log.e("API_ERROR", "Unrecognized position: ${player.position}")
-                                    }
-                                } else {
-                                    Log.e("API_ERROR", "Player position is null: ${player.name}")
-                                }
-                            }
-
-                            // Assign the lists to adapters
-                            offensiveAdapter = PlayerAdapter(offensivePlayers)
-                            defensiveAdapter = PlayerAdapter(defensivePlayers)
-
-                            binding.offensiveRecyclerView.adapter = offensiveAdapter
-                            binding.defensiveRecyclerView.adapter = defensiveAdapter
-
-                            // Disable nested scrolling for smooth scrolling
-                            binding.offensiveRecyclerView.isNestedScrollingEnabled = false
-                            binding.defensiveRecyclerView.isNestedScrollingEnabled = false
+                            updateRecyclerViews(players)
                         } else {
                             Log.e("API_ERROR", "API response is empty or null")
                         }
@@ -121,29 +136,18 @@ class MainActivity : AppCompatActivity() {
             })
     }
 
+    private fun updateRecyclerViews(players: List<Player>) {
+        val offensivePlayers = players.filter { it.position in listOf("QB", "RB", "WR", "TE", "OL") }
+        val defensivePlayers = players.filter { it.position in listOf("CB", "LB", "S", "DL", "DE") }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.appbar_menu, menu)
-        return true
-    }
+        offensiveAdapter = PlayerAdapter(offensivePlayers)
+        defensiveAdapter = PlayerAdapter(defensivePlayers)
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.home -> {
-                recreate()
-                true
-            }
-            R.id.news -> {
-                recreate()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
+        binding.offensiveRecyclerView.adapter = offensiveAdapter
+        binding.defensiveRecyclerView.adapter = defensiveAdapter
     }
 
     private fun toMainApp() {
-        // Retrieve the saved team info
         val favoriteTeamName = sharedPreferences.getString("favorite_team", "Unknown Team")
         val favoriteTeamShort = sharedPreferences.getString("favorite_team_short", "unknown")
         val apiId = sharedPreferences.getString("favourite_team_apiId", null)?.toIntOrNull()
@@ -154,20 +158,12 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "No API ID found!", Toast.LENGTH_SHORT).show()
         }
 
-        // Set the team name in the TextView using View Binding
         binding.textView.text = favoriteTeamName?.toUpperCase()
 
-        // Dynamically load the team's logo based on the short name
         val logoResId = resources.getIdentifier(
             "logo_${favoriteTeamShort?.toLowerCase()}", "drawable", packageName
         )
 
-        if (logoResId != 0) {
-            // Set the team's logo if the resource ID is found
-            binding.imageView.setImageResource(logoResId)
-        } else {
-            // Fallback logo if no specific logo is found
-            binding.imageView.setImageResource(R.drawable.logo_logo) // Use default fallback logo
-        }
+        binding.imageView.setImageResource(if (logoResId != 0) logoResId else R.drawable.logo_logo)
     }
 }

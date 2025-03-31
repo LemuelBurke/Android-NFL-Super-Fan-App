@@ -15,10 +15,14 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
     }
 
     buildFeatures{
         viewBinding true
+        compose true
     }
 
     buildTypes {
@@ -34,6 +38,14 @@ android {
     namespace 'com.example.mob_dev_portfolio'
     kotlinOptions {
         jvmTarget = '11'
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.5.1'
+    }
+    packaging {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
     }
 }
 

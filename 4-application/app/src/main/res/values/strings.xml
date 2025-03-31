@@ -11,4 +11,6 @@
     <string name="team_name">placeholder\n</string>
     <string name="defensive_players">Defensive Lineup</string>
     <string name="offensive_players">Offensive Lineup</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="season">Season:</string>
 </resources>
