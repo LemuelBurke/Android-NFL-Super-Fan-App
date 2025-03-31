@@ -1,6 +1,4 @@
 <resources>
-
-
     <string name="stats">Stats</string>
     <string name="home">Home</string>
     <string name="news">News</string>
@@ -11,4 +9,6 @@
     <string name="nfc">NFC</string>
     <string name="afc">AFC</string>
     <string name="team_name">placeholder\n</string>
+    <string name="defensive_players">Defensive Lineup</string>
+    <string name="offensive_players">Offensive Lineup</string>
 </resources>
