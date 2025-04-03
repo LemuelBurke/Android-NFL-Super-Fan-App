@@ -12,4 +12,7 @@
     <color name="secondary_accent">#383838</color>
     <color name="secondary_accent_variant">#484949</color>
     <color name="buttonColor">#11141B</color>
+    <color name="light_background">#F5F5F5</color>
+    <color name="light_variant">#E0E0E0</color>
+
 </resources>

@@ -67,7 +67,7 @@
 <!--                android:textStyle="bold"-->
 <!--                android:layout_marginEnd="8dp"/>-->
 
-            <!-- Players Title -->
+<!--            Year spinner -->
             <Spinner
                 android:id="@+id/seasonSpinner"
                 style="@style/CustomSpinnerStyle"
@@ -78,13 +78,13 @@
                 android:padding="10dp"
                 android:textSize="18sp"
                 android:layout_gravity="center_horizontal"/>
-
+            <!-- Players Title -->
             <TextView
                 android:id="@+id/playersText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="Players"
+                android:text="@string/players"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -125,6 +125,40 @@
                 android:layout_height="200dp"
                 android:nestedScrollingEnabled="false"
                 android:scrollbars="horizontal" />
+
+<!--            Games text-->
+            <TextView
+                android:id="@+id/gamesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/season_games"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+            <!--            Games text-->
+            <TextView
+                android:id="@+id/homeAwayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="AWAY @ HOME"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+
+            <!-- Past Games RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pastGamesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:nestedScrollingEnabled="false"
+                android:clipToPadding="false"
+                android:paddingBottom="16dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
         </LinearLayout>
 

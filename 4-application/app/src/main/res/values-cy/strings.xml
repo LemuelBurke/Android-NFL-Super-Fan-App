@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stats">Ystadegau</string>
+    <string name="home">Cartref</string>
+    <string name="news">Newyddion</string>
+    <string name="app_name">NFL App</string>
+    <string name="fav_team_selection">Dewiswch dîm</string>
+    <string name="select_your_fav_nfl_team">Dewiswch dîm</string>
+    <string name="defensive_players">Lineup Amddiffynnol</string>
+    <string name="offensive_players">Lineup Ymosodol</string>
+    <string name="season">Tymor:</string>
+    <string name="your_ultimate_source_for_nfl_team_statistics_player_info_and_game_results">Eich ffynhonnell eithaf ar gyfer ystadegau tîm NFL, gwybodaeth chwaraewyr, newyddion, a chanlyniadau gêm</string>
+    <string name="welcome_to_nfl_stats">Croeso i NFL Stats!</string>
+    <string name="pick_favourite_team">Dewiswch Hoff Dîm</string>
+    <string name="player_name">Enw\'r Chwaraewr</string>
+    <string name="position">Safle</string>
+    <string name="number">Rhif</string>
+    <string name="sorry_no_data_can_be_displayed_try_again_later">Yn ddrwg gennym, ni ellir dangos unrhyw ddata, Ceisiwch eto yn nes ymlaen!</string>
+    <string name="settings">Gosodiadau</string>
+    <string name="toggle_light_mode">Toglu gosodiad golau</string>
+    <string name="players">Chwaraewyr</string>
+    <string name="season_games">Gemau</string>
+</resources>

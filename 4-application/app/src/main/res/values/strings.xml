@@ -2,15 +2,27 @@
     <string name="stats">Stats</string>
     <string name="home">Home</string>
     <string name="news">News</string>
-    <string name="title_activity_team_selection">activity_team_selection</string>
-    <string name="app_name">NFL App</string>
+    <string name="title_activity_team_selection" translatable="false">activity_team_selection</string>
+    <string name="app_name" translatable="false">NFL App</string>
     <string name="fav_team_selection">Select a Team</string>
     <string name="select_your_fav_nfl_team">Select a Team!</string>
-    <string name="nfc">NFC</string>
-    <string name="afc">AFC</string>
-    <string name="team_name">placeholder\n</string>
+    <string name="nfc" translatable="false">NFC</string>
+    <string name="afc" translatable="false">AFC</string>
+    <string name="team_name" translatable="false">placeholder\n</string>
     <string name="defensive_players">Defensive Lineup</string>
     <string name="offensive_players">Offensive Lineup</string>
-    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_web_view" translatable="false">WebViewActivity</string>
     <string name="season">Season:</string>
+    <string name="atSymbol" translatable="false">\@</string>
+    <string name="your_ultimate_source_for_nfl_team_statistics_player_info_and_game_results">Your ultimate source for NFL team statistics, player info, news, and game results</string>
+    <string name="welcome_to_nfl_stats">Welcome to NFL Stats!</string>
+    <string name="pick_favourite_team">Pick Favourite Team</string>
+    <string name="player_name">Player Name</string>
+    <string name="position">Position</string>
+    <string name="number">Number</string>
+    <string name="sorry_no_data_can_be_displayed_try_again_later">Sorry, no data can be displayed\nTry again later!</string>
+    <string name="settings">SETTINGS</string>
+    <string name="toggle_light_mode">Toggle Light Mode</string>
+    <string name="players">Players</string>
+    <string name="season_games">Season Games</string>
 </resources>

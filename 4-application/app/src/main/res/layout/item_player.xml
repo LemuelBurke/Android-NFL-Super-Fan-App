@@ -15,7 +15,7 @@
         android:id="@+id/playerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Player Name"
+        android:text="@string/player_name"
         android:textStyle="bold"
         android:gravity="center" />
 
@@ -23,7 +23,7 @@
         android:id="@+id/playerPosition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Position"
+        android:text="@string/position"
         android:textSize="12sp"
         android:gravity="center" />
 
@@ -31,7 +31,7 @@
         android:id="@+id/playerNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Number"
+        android:text="@string/number"
         android:textSize="12sp"
         android:gravity="center" />
 </LinearLayout>
