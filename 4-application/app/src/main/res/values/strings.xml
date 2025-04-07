@@ -26,4 +26,7 @@
     <string name="players">Players</string>
     <string name="season_games">Season Games</string>
     <string name="final_text">FINAL</string>
+    <string name="upcoming_games">Upcoming Games</string>
+    <string name="add_to_calendar">ADD TO CALENDAR</string>
+    <string name="emptyNull">-</string>
 </resources>

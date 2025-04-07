@@ -21,4 +21,7 @@
     <string name="players">Chwaraewyr</string>
     <string name="season_games">Gemau</string>
     <string name="final_text">TERFYNOL</string>
+    <string name="upcoming_games">Gemau i ddod</string>
+    <string name="add_to_calendar">Ychwanegu at galendr</string>
+    <string name="emptyNull">-</string>
 </resources>

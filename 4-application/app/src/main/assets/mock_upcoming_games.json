@@ -5,7 +5,7 @@
         "awayId": 3,
         "location": "AT&T Stadium, Arlington, TX",
         "date": "2025-09-12",
-        "time": "20:20:00"
+        "time": "20:20"
     },
     {
         "gameID": "game2",
@@ -13,7 +13,7 @@
         "awayId": 8,
         "location": "Gillette Stadium, Foxborough, MA",
         "date": "2025-09-13",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game3",
@@ -21,7 +21,7 @@
         "awayId": 7,
         "location": "Highmark Stadium, Buffalo, NY",
         "date": "2025-09-13",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game4",
@@ -29,7 +29,7 @@
         "awayId": 10,
         "location": "Hard Rock Stadium, Miami Gardens, FL",
         "date": "2025-09-14",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game5",
@@ -37,7 +37,7 @@
         "awayId": 6,
         "location": "Lucas Oil Stadium, Indianapolis, IN",
         "date": "2025-09-14",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game6",
@@ -45,7 +45,7 @@
         "awayId": 9,
         "location": "Allegiant Stadium, Paradise, NV",
         "date": "2025-09-19",
-        "time": "20:15:00"
+        "time": "20:15"
     },
     {
         "gameID": "game7",
@@ -53,7 +53,7 @@
         "awayId": 3,
         "location": "SoFi Stadium, Inglewood, CA",
         "date": "2025-09-20",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game8",
@@ -61,7 +61,7 @@
         "awayId": 18,
         "location": "Empower Field at Mile High, Denver, CO",
         "date": "2025-09-20",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game9",
@@ -69,7 +69,7 @@
         "awayId": 12,
         "location": "State Farm Stadium, Glendale, AZ",
         "date": "2025-09-21",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game10",
@@ -77,7 +77,7 @@
         "awayId": 23,
         "location": "Bank of America Stadium, Charlotte, NC",
         "date": "2025-09-21",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game11",
@@ -85,7 +85,7 @@
         "awayId": 29,
         "location": "U.S. Bank Stadium, Minneapolis, MN",
         "date": "2025-09-26",
-        "time": "20:20:00"
+        "time": "20:20"
     },
     {
         "gameID": "game12",
@@ -93,7 +93,7 @@
         "awayId": 17,
         "location": "Lambeau Field, Green Bay, WI",
         "date": "2025-09-27",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game13",
@@ -101,7 +101,7 @@
         "awayId": 27,
         "location": "Soldier Field, Chicago, IL",
         "date": "2025-09-27",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game14",
@@ -109,7 +109,7 @@
         "awayId": 28,
         "location": "Lincoln Financial Field, Philadelphia, PA",
         "date": "2025-09-28",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game15",
@@ -117,7 +117,7 @@
         "awayId": 31,
         "location": "FedExField, Landover, MD",
         "date": "2025-09-28",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game16",
@@ -125,7 +125,7 @@
         "awayId": 16,
         "location": "Bank of America Stadium, Charlotte, NC",
         "date": "2025-10-03",
-        "time": "20:20:00"
+        "time": "20:20"
     },
     {
         "gameID": "game17",
@@ -133,7 +133,7 @@
         "awayId": 10,
         "location": "Mercedes-Benz Stadium, Atlanta, GA",
         "date": "2025-10-04",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game18",
@@ -141,7 +141,7 @@
         "awayId": 30,
         "location": "Caesars Superdome, New Orleans, LA",
         "date": "2025-10-04",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game19",
@@ -149,7 +149,7 @@
         "awayId": 32,
         "location": "Raymond James Stadium, Tampa, FL",
         "date": "2025-10-05",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game20",
@@ -157,7 +157,7 @@
         "awayId": 18,
         "location": "MetLife Stadium, East Rutherford, NJ",
         "date": "2025-10-05",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game21",
@@ -165,7 +165,7 @@
         "awayId": 7,
         "location": "FirstEnergy Stadium, Cleveland, OH",
         "date": "2025-10-10",
-        "time": "20:15:00"
+        "time": "20:15"
     },
     {
         "gameID": "game22",
@@ -173,7 +173,7 @@
         "awayId": 4,
         "location": "TIAA Bank Field, Jacksonville, FL",
         "date": "2025-10-11",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game23",
@@ -181,7 +181,7 @@
         "awayId": 5,
         "location": "AT&T Stadium, Arlington, TX",
         "date": "2025-10-11",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game24",
@@ -189,7 +189,7 @@
         "awayId": 12,
         "location": "Gillette Stadium, Foxborough, MA",
         "date": "2025-10-12",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game25",
@@ -197,7 +197,7 @@
         "awayId": 20,
         "location": "Arrowhead Stadium, Kansas City, MO",
         "date": "2025-10-12",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game26",
@@ -205,7 +205,7 @@
         "awayId": 21,
         "location": "Highmark Stadium, Buffalo, NY",
         "date": "2025-10-17",
-        "time": "20:15:00"
+        "time": "20:15"
     },
     {
         "gameID": "game27",
@@ -213,7 +213,7 @@
         "awayId": 9,
         "location": "Hard Rock Stadium, Miami Gardens, FL",
         "date": "2025-10-18",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game28",
@@ -221,7 +221,7 @@
         "awayId": 24,
         "location": "MetLife Stadium, East Rutherford, NJ",
         "date": "2025-10-18",
-        "time": "16:25:00"
+        "time": "16:25"
     },
     {
         "gameID": "game29",
@@ -229,7 +229,7 @@
         "awayId": 32,
         "location": "M&T Bank Stadium, Baltimore, MD",
         "date": "2025-10-19",
-        "time": "13:00:00"
+        "time": "13:00"
     },
     {
         "gameID": "game30",
@@ -237,6 +237,6 @@
         "awayId": 17,
         "location": "Heinz Field, Pittsburgh, PA",
         "date": "2025-10-19",
-        "time": "16:25:00"
+        "time": "16:25"
     }
 ]

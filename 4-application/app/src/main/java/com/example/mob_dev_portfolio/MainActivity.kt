@@ -90,6 +90,12 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                     true
                 }
+
+                R.id.statistics -> {
+                    val intent = Intent(this, StatisticsActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
                 else -> false
             }
         }

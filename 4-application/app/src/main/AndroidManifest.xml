@@ -16,7 +16,8 @@
         android:theme="@style/Theme.nflAppTheme">
         <activity
             android:name=".StatisticsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".WelcomeActivity"
             android:exported="false"
