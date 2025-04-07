@@ -1,5 +1,6 @@
 package com.example.mob_dev_portfolio
 
+import FunFactWorker
 import Game
 import GameAdapter
 import GameResponse
@@ -27,8 +28,17 @@ import retrofit2.Response
 import retrofit2.Call
 import retrofit2.Callback
 import android.content.Context
+import android.content.pm.PackageManager
+import android.os.Build
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.os.LocaleListCompat
+import androidx.work.ExistingPeriodicWorkPolicy
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.WorkManager
+import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
     private lateinit var sharedPreferences: SharedPreferences
@@ -89,6 +99,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, WelcomeActivity::class.java))
             finish()
         } else {
+            scheduleNotifications() // Schedule workManager notifs
             setupSeasonSpinner()
             toMainApp()
         }
@@ -244,6 +255,65 @@ class MainActivity : AppCompatActivity() {
         binding.defensiveRecyclerView.apply {
             adapter = PlayerAdapter(defensivePlayers)
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        }
+    }
+
+    private fun scheduleNotifications() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(
+                    this,
+                    android.Manifest.permission.POST_NOTIFICATIONS
+                ) != PackageManager.PERMISSION_GRANTED
+            ) {
+                ActivityCompat.requestPermissions(
+                    this,
+                    arrayOf(android.Manifest.permission.POST_NOTIFICATIONS),
+                    NOTIFICATION_PERMISSION_CODE
+                )
+            } else {
+                enqueueNotificationWork()
+            }
+        } else {
+            enqueueNotificationWork()
+        }
+    }
+
+    private fun enqueueNotificationWork() {
+        // Create a periodic work request
+        val periodicWorkRequest = PeriodicWorkRequestBuilder<FunFactWorker>(
+            15, TimeUnit.MINUTES) // Run once every X mins
+            .setInitialDelay(1, TimeUnit.MINUTES)  // Initial delay before first notification
+            .build()
+
+        // Enqueue the periodic work
+        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+            "fun_fact_notifications",
+            ExistingPeriodicWorkPolicy.REPLACE,  // Don't replace if already exists
+            periodicWorkRequest
+        )
+    }
+
+    companion object {
+        private const val NOTIFICATION_PERMISSION_CODE = 100
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+
+        if (requestCode == NOTIFICATION_PERMISSION_CODE) {
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                enqueueNotificationWork()
+            } else {
+                Toast.makeText(
+                    this,
+                    "Notification permission denied. You won't receive fun facts.",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
         }
     }
 

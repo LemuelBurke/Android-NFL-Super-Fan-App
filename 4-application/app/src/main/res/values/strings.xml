@@ -25,4 +25,5 @@
     <string name="toggle_light_mode">Toggle Light Mode</string>
     <string name="players">Players</string>
     <string name="season_games">Season Games</string>
+    <string name="final_text">FINAL</string>
 </resources>

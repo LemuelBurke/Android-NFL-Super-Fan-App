@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Y Dychweliad",
+    "fact": "Yn 1993, roedd y Buffalo Bills yn gwneud adferiad o 32 pwynt yn erbyn y Oilers yn y playoffs i ennill 41-38 mewn amser ychwanegol.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 2,
+    "title": "Sbwriel y Roci",
+    "fact": "Trawodd Dak Prescott 23 o ddiarddiadau ac ond 4 o ddirgryniadau yn ei dymor cyntaf gyda'r Cowboys yn 2016.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 3,
+    "title": "Y Streak Haearn",
+    "fact": "Dechreuodd Brett Favre 297 o gemau cyson yn y tymor rheolaidd o 1992 i 2010.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 4,
+    "title": "Pwer Amddiffynnol",
+    "fact": "Roedd y Baltimore Ravens yn 2000 yn caniatáu dim ond 165 o bwyntiau drwy gydol y tymor, un o'r perfformiadau amddiffynnol gorau mewn hanes y NFL.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 5,
+    "title": "Dwyn Drafft Perffaith",
+    "fact": "Dewiswyd Tom Brady yn 199fed yn gyfan gwbl yn y Drafft NFL 2000 gan y Patriots.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 6,
+    "title": "Shutout Hanesyddol",
+    "fact": "Yn 1989, roedd y Cleveland Browns yn cau'r Steelers allan 51-0 yn Pittsburgh—y colled gartref waethaf mewn hanes y Steelers.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 7,
+    "title": "Gloria Timau Arbennig",
+    "fact": "Aeth Devin Hester â 20 o darfyriadau/pwyntiau i ddbwynt drwy gydol ei yrfa, gan ysgafnhau’r gefnogwyr bron pob tymor.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 8,
+    "title": "Y Brwydr Isel y Pwyntiau",
+    "fact": "Daeth Super Bowl LIII rhwng y Patriots a'r Rams i ben 13-3, y Super Bowl gyda'r pwyntiau isaf erioed.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 9,
+    "title": "Y Derbyniad Ewchlanog",
+    "fact": "Cafodd Franco Harris y 'Derbyniad Ewchlanog' yn 1972, chwaraeon rhyfeddol a chynorthwyodd i lansio teyrnasiad y Steelers.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 10,
+    "title": "Ciciau Maes Hiraf",
+    "fact": "Yn 2021, saethodd Justin Tucker giciau maes 66 llath i guro’r Lions wrth i’r amser ddod i ben.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 11,
+    "title": "Eto'r Wythnos Llun",
+    "fact": "Yn 2000, roedd y Jets yn gwneud adferiad o 30-7 yn y chwarter olaf yn erbyn y Dolphins i ennill 40-37 mewn amser ychwanegol.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 12,
+    "title": "Gem y Plow Eira",
+    "fact": "Yn 1982, roedd y Patriots yn curo'r Dolphins 3-0 mewn gêm eira lle cafodd plow eira leolir y lle i sicrhau'r gic-gol buddugol.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 13,
+    "title": "Y Ffwl y Niwl",
+    "fact": "Roedd y gêm playoff yn 1988 rhwng yr Eagles a’r Bears yn ddigon niwlog yn y hanner olaf fel nad oedd cefnogwyr a chwaraewyr yn gallu gweld dim.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 14,
+    "title": "Y Dychweliad Minneapolis",
+    "fact": "Yn 2018, daeth Stefon Diggs â thrawiad TD olaf 61 llath i guro'r Saints yn y playoffs.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 15,
+    "title": "Y Dychweliad Dinas Cerddoriaeth",
+    "fact": "Yn 2000, enillodd y Titans gêm playoffs yn erbyn y Bills ar y diwedd â lladiar olaf.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 16,
+    "title": "Chwaraewr yn Anodd",
+    "fact": "Sethodd Randy Moss record y rocwyddi gyda 17 TD catch yn 1998.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 17,
+    "title": "Mr. Cysondeb",
+    "fact": "Cafodd Jerry Rice 11 o dymhorau yn olynol (1986-1996) gyda mwy na 1,000 o feddyliadau.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 18,
+    "title": "QB yn Ysgafn",
+    "fact": "Cafodd Cam Newton benderfyniadau 14 o TDs yn 2011, y mwyaf erioed gan QB mewn tymor.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 19,
+    "title": "Cynwr Angen",
+    "fact": "Wnaeth Michael Strahan osod record saccu’r tymor (22.5) yn 2001, wedi’i helpu gan ‘gymorth’ Brett Favre.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 20,
+    "title": "Ironman RB",
+    "fact": "Cafodd Frank Gore dros 1,000 o lwybr yn 34 oed, y hynaf i wneud hynny.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 21,
+    "title": "Tymor Reglar Heb Ffwrdd",
+    "fact": "Roedd y Patriots yn 2007 yn mynd 16-0 cyn colli yn Super Bowl XLII.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 22,
+    "title": "Stori Troi o’r Gwirionedd",
+    "fact": "Roedd y Rams yn 1999 yn mynd o 4-12 i fod yn bencampwyr Super Bowl ('Y Dangosfa Fwyaf ar y Gors').",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 23,
+    "title": "Zona Heb Heibio",
+    "fact": "Roedd y Broncos yn 2015 yn arwain y gynghrair ym amddiffyn y pas, allweddol i’w fuddugoliaeth yn Super Bowl 50.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 24,
+    "title": "Y Curtain Haearn",
+    "fact": "Roedd amddiffyn y Steelers yn 1976 yn caniatáu dim ond 28 o bwyntiau yn eu naw gêm olaf.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 25,
+    "title": "Y Legion o Boom",
+    "fact": "Roedd y Seahawks yn 2013 yn arwain y NFL mewn cymryd (39) a chafodd eu Super Bowl.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 26,
+    "title": "Jewel y Trosglwyddo",
+    "fact": "Roedd Shannon Sharpe yn ddewis yn y 7fed rownd (192fed yn gyfan gwbl) yn 1990 ac yn dod yn aelod o'r Hall of Fame.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 27,
+    "title": "Bargen QB",
+    "fact": "Roedd Russell Wilson yn ddewis yn y 3ydd rownd (75fed yn gyfan gwbl) yn 2012.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 28,
+    "title": "Dwyn y Drafft",
+    "fact": "Roedd Richard Sherman yn ddewis yn y 5ed rownd (154fed yn gyfan gwbl) yn 2011.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 29,
+    "title": "HOF Gwerth",
+    "fact": "Roedd Terrell Davis yn ddewis yn y 6ed rownd (196fed yn gyfan gwbl) yn 1995.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 30,
+    "title": "Seren Annisgwyl",
+    "fact": "Roedd Antonio Brown yn ddewis yn y 6ed rownd (195fed yn gyfan gwbl) yn 2010.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 31,
+    "title": "Y Cydio Het",
+    "fact": "Cafodd David Tyree'r cydio annisgwyl yn Super Bowl XLII a helpodd i'r Giants dymchwel y Patriots.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 32,
+    "title": "Clymu y Beast",
+    "fact": "Roedd rhedeg TD Marshawn Lynch 67 llath yn y playoffs yn 2010 yn achosi gweithgaredd seismig yn Seattle.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 33,
+    "title": "Arbenigwr Philly",
+    "fact": "Rhedodd yr Eagles chwarae-trick TD yn Super Bowl LII gyda QB Nick Foles yn derbyn y pas.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 34,
+    "title": "Miracle Uchaf y Mynyddoedd",
+    "fact": "Roedd y 70-llath TD gan Joe Flacco i Jacoby Jones yn gorfodi OT yn gêm playoffs 2012 yn erbyn Denver.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 35,
+    "title": "Y Cydio III",
+    "fact": "Cafodd Vernon Davis y cydio TD olaf yn y playoffs 2011 i drechu'r Saints.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 36,
+    "title": "Y Rheol Tuck",
+    "fact": "Helpodd galwad gwadu yn 2002 i'r Patriots drechu'r Raiders yn y playoffs.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 37,
+    "title": "Y Fail Mary",
+    "fact": "Diweddodd gêm yn 2012 gyda chydio TD dadleuol gan Golden Tate, a chafodd y chwaraewr ddod yn ddarn o hanes.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 38,
+    "title": "Y Ffwl Yn y Ffwl",
+    "fact": "Daeth chwarae enwog Mark Sanchez yn 2012 yn symbol o ddiflaniadau'r Jets.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 39,
+    "title": "0-0 mewn OT",
+    "fact": "Chwaraeodd y Lions a'r Giants i’r gêm cyntaf 0-0 yn y NFL ym 1943.",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 40,
+    "title": "Y Hail Murray",
+    "fact": "Roedd TD olaf Kyler Murray i DeAndre Hopkins yn guro’r Bills yn 2020.",
+    "typeOfFact": "Chwarae"
+  },
+  {
+    "id": 41,
+    "title": "Double Trouble",
+    "fact": "Roedd DeAngelo Williams a Jonathan Stewart yn rhedeg dros 1,100+ o lwybrau ar gyfer y Panthers yn 2009.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 42,
+    "title": "Dim dirgryniadau",
+    "fact": "Trowyd Aaron Rodgers 28 TDs gyda dim ond 5 dirgryniadau yn ei dymor MVP yn 2011.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 43,
+    "title": "Ysbrydolwr Pwrpasol",
+    "fact": "Cafodd Christian McCaffrey dros 1,000 o lwybrau ac ystod derbyn yn 2019.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 44,
+    "title": "Seren nad yw'n werth dewis",
+    "fact": "Cafodd Wes Welker arweiniodd y NFL mewn derbyniadau tair gwaith ar ôl i’w ddewis gael ei golli.",
+    "typeOfFact": "Drafft"
+  },
+  {
+    "id": 45,
+    "title": "Longevity Kicker",
+    "fact": "Chwaraeodd Adam Vinatieri 24 tymor, gan ymddeol yn 46 oed.",
+    "typeOfFact": "Chwaraewr"
+  },
+  {
+    "id": 46,
+    "title": "Y Ffwl y Gollwng",
+    "fact": "Cafodd y Browns ddwy gamu Ailgylch ymlaen ag amharadwy yn unig, colli'r ffordd yn y semiff",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 47,
+    "title": "Y Gêm Heb Punish",
+    "fact": "Enillodd y Colts yn 2014 y Bengals heb un pun",
+    "typeOfFact": "Gêm"
+  },
+  {
+    "id": 48,
+    "title": "Shutout Yn Ôl",
+    "fact": "Roedd y Bears yn 1937 yn shutout tri gwrthwynebydd yn olynol.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 49,
+    "title": "Y ‘Cardiac Cats’",
+    "fact": "Roedd y Panthers yn 2003 yn ennill saith o gemau gyda 3 pwynt neu lai.",
+    "typeOfFact": "Tîm"
+  },
+  {
+    "id": 50,
+    "title": "Tro Ffwl i'r Bwrdd",
+    "fact": "Roedd y Bengals yn 2021 yn mynd o 4-11-1 i Gampwyr AFC mewn un flwyddyn.",
+    "typeOfFact": "Tîm"
+  }
+]

@@ -1,8 +1,8 @@
 package com.example.mob_dev_portfolio
 
+import FunFactWorker
 import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -57,4 +57,6 @@ class WelcomeActivity : AppCompatActivity() {
     override fun attachBaseContext(newBase: Context) {
         super.attachBaseContext(LocaleHelper.applyLocale(newBase))
     }
+
+
 }

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "The Comeback",
+    "fact": "In 1993, the Buffalo Bills overcame a 32-point deficit against the Oilers in the playoffs to win 41-38 in overtime.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 2,
+    "title": "Rookie Surprise",
+    "fact": "Dak Prescott threw 23 touchdowns and only 4 interceptions in his rookie season with the Cowboys in 2016.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 3,
+    "title": "Iron Man Streak",
+    "fact": "Brett Favre started 297 consecutive regular season games at quarterback from 1992 to 2010.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 4,
+    "title": "Defensive Powerhouse",
+    "fact": "The 2000 Baltimore Ravens allowed only 165 points all season, one of the best defensive performances in NFL history.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 5,
+    "title": "Perfect Draft Steal",
+    "fact": "Tom Brady was selected 199th overall in the 2000 NFL Draft by the Patriots.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 6,
+    "title": "Historic Shutout",
+    "fact": "In 1989, the Cleveland Browns shut out the Steelers 51-0 in Pittsburgh—the worst home loss in Steelers history.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 7,
+    "title": "Special Teams Glory",
+    "fact": "Devin Hester returned 20 kicks/punts for touchdowns during his career, electrifying fans nearly every season.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 8,
+    "title": "Low Scoring Battle",
+    "fact": "Super Bowl LIII between the Patriots and Rams ended 13-3, the lowest scoring Super Bowl ever.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 9,
+    "title": "The Immaculate Reception",
+    "fact": "Franco Harris made the 'Immaculate Reception' in 1972, a miraculous play that helped launch the Steelers dynasty.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 10,
+    "title": "Longest Field Goal",
+    "fact": "In 2021, Justin Tucker nailed a 66-yard field goal to beat the Lions as time expired.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 11,
+    "title": "Monday Night Miracle",
+    "fact": "In 2000, the Jets overcame a 30-7 deficit in the 4th quarter against the Dolphins to win 40-37 in overtime.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 12,
+    "title": "Snowplow Game",
+    "fact": "In 1982, the Patriots beat the Dolphins 3-0 in a snowy game where a snowplow cleared a spot for the game-winning field goal.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 13,
+    "title": "The Fog Bowl",
+    "fact": "The 1988 playoff game between the Eagles and Bears was so foggy in the second half that fans and players could barely see.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 14,
+    "title": "The Minneapolis Miracle",
+    "fact": "In 2018, Stefon Diggs caught a last-second 61-yard TD pass to beat the Saints in the playoffs.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 15,
+    "title": "The Music City Miracle",
+    "fact": "In 2000, the Titans won a playoff game against the Bills on a last-second lateral kick return.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 16,
+    "title": "Unstoppable Rookie",
+    "fact": "Randy Moss set a rookie record with 17 TD catches in 1998.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 17,
+    "title": "Mr. Consistency",
+    "fact": "Jerry Rice had 11 straight seasons (1986-1996) with over 1,000 receiving yards.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 18,
+    "title": "Dual-Threat QB",
+    "fact": "Cam Newton rushed for 14 TDs in 2011, the most ever by a QB in a season.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 19,
+    "title": "Sack King",
+    "fact": "Michael Strahan set the single-season sack record (22.5) in 2001, aided by Brett Favre’s 'assist.'",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 20,
+    "title": "Ironman RB",
+    "fact": "Frank Gore rushed for over 1,000 yards at age 34, the oldest to do so.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 21,
+    "title": "Undefeated Regular Season",
+    "fact": "The 2007 Patriots went 16-0 before losing Super Bowl XLII.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 22,
+    "title": "Turnaround Story",
+    "fact": "The 1999 Rams went from 4-12 to Super Bowl champs ('The Greatest Show on Turf').",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 23,
+    "title": "No Fly Zone",
+    "fact": "The 2015 Broncos led the league in pass defense, key to their Super Bowl 50 win.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 24,
+    "title": "The Steel Curtain",
+    "fact": "The 1976 Steelers defense allowed only 28 total points in their final nine games.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 25,
+    "title": "The Legion of Boom",
+    "fact": "The 2013 Seahawks led the NFL in takeaways (39) and won the Super Bowl.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 26,
+    "title": "Late-Round Gem",
+    "fact": "Shannon Sharpe was a 7th-round pick (192nd overall) in 1990 and became a Hall of Famer.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 27,
+    "title": "QB Bargain",
+    "fact": "Russell Wilson was drafted in the 3rd round (75th overall) in 2012.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 28,
+    "title": "Steal of the Draft",
+    "fact": "Richard Sherman was a 5th-round pick (154th overall) in 2011.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 29,
+    "title": "HOF Value",
+    "fact": "Terrell Davis was a 6th-round pick (196th overall) in 1995.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 30,
+    "title": "Unexpected Star",
+    "fact": "Antonio Brown was a 6th-round pick (195th overall) in 2010.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 31,
+    "title": "The Helmet Catch",
+    "fact": "David Tyree’s improbable Super Bowl XLII catch helped the Giants upset the Patriots.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 32,
+    "title": "Beast Quake",
+    "fact": "Marshawn Lynch’s 67-yard TD run in the 2010 playoffs caused seismic activity in Seattle.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 33,
+    "title": "Philly Special",
+    "fact": "The Eagles ran a trick-play TD in Super Bowl LII with QB Nick Foles catching the pass.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 34,
+    "title": "Mile High Miracle",
+    "fact": "Joe Flacco’s 70-yard TD to Jacoby Jones forced OT in a 2012 playoff win over Denver.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 35,
+    "title": "The Catch III",
+    "fact": "Vernon Davis’ last-second TD catch in the 2011 playoffs beat the Saints.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 36,
+    "title": "The Tuck Rule Game",
+    "fact": "A controversial call in 2002 helped the Patriots beat the Raiders in the playoffs.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 37,
+    "title": "The Fail Mary",
+    "fact": "A 2012 game ended on a controversial TD catch by Golden Tate, replacement refs called it a score.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 38,
+    "title": "The Butt Fumble",
+    "fact": "Mark Sanchez’s infamous play in 2012 became a symbol of Jets struggles.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 39,
+    "title": "0-0 in OT",
+    "fact": "The Lions and Giants played to the NFL’s first 0-0 tie in 1943.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 40,
+    "title": "The Hail Murray",
+    "fact": "Kyler Murray’s last-second TD to DeAndre Hopkins beat the Bills in 2020.",
+    "typeOfFact": "Play"
+  },
+  {
+    "id": 41,
+    "title": "Double Trouble",
+    "fact": "DeAngelo Williams and Jonathan Stewart both rushed for 1,100+ yards for the 2009 Panthers.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 42,
+    "title": "No INTs",
+    "fact": "Aaron Rodgers threw 28 TDs with only 5 INTs in his 2011 MVP season.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 43,
+    "title": "All-Purpose Beast",
+    "fact": "Christian McCaffrey had 1,000+ rushing and receiving yards in 2019.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 44,
+    "title": "Undrafted Star",
+    "fact": "Wes Welker led the NFL in receptions three times after going undrafted.",
+    "typeOfFact": "Draft"
+  },
+  {
+    "id": 45,
+    "title": "Kicker Longevity",
+    "fact": "Adam Vinatieri played 24 seasons, retiring at age 46.",
+    "typeOfFact": "Player"
+  },
+  {
+    "id": 46,
+    "title": "The Fumble & The Drive",
+    "fact": "The Browns lost back-to-back AFC Championships in heartbreaking fashion (1986-87).",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 47,
+    "title": "The No-Punt Game",
+    "fact": "The 2014 Colts beat the Bengals without punting a single time.",
+    "typeOfFact": "Game"
+  },
+  {
+    "id": 48,
+    "title": "Back-to-Back Shutouts",
+    "fact": "The 1937 Bears shut out three straight opponents.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 49,
+    "title": "The Cardiac Cats",
+    "fact": "The 2003 Panthers won seven games by 3 points or fewer.",
+    "typeOfFact": "Team"
+  },
+  {
+    "id": 50,
+    "title": "Worst to First Turnaround",
+    "fact": "The 2021 Bengals went from 4-11-1 to AFC Champs in one year.",
+    "typeOfFact": "Team"
+  }
+]

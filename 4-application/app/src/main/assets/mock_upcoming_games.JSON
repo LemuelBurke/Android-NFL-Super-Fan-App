@@ -1,0 +1,242 @@
+[
+    {
+        "gameID": "game1",
+        "homeId": 1,
+        "awayId": 3,
+        "location": "AT&T Stadium, Arlington, TX",
+        "date": "2025-09-12",
+        "time": "20:20:00"
+    },
+    {
+        "gameID": "game2",
+        "homeId": 2,
+        "awayId": 8,
+        "location": "Gillette Stadium, Foxborough, MA",
+        "date": "2025-09-13",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game3",
+        "homeId": 4,
+        "awayId": 7,
+        "location": "Highmark Stadium, Buffalo, NY",
+        "date": "2025-09-13",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game4",
+        "homeId": 5,
+        "awayId": 10,
+        "location": "Hard Rock Stadium, Miami Gardens, FL",
+        "date": "2025-09-14",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game5",
+        "homeId": 11,
+        "awayId": 6,
+        "location": "Lucas Oil Stadium, Indianapolis, IN",
+        "date": "2025-09-14",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game6",
+        "homeId": 13,
+        "awayId": 9,
+        "location": "Allegiant Stadium, Paradise, NV",
+        "date": "2025-09-19",
+        "time": "20:15:00"
+    },
+    {
+        "gameID": "game7",
+        "homeId": 14,
+        "awayId": 3,
+        "location": "SoFi Stadium, Inglewood, CA",
+        "date": "2025-09-20",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game8",
+        "homeId": 15,
+        "awayId": 18,
+        "location": "Empower Field at Mile High, Denver, CO",
+        "date": "2025-09-20",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game9",
+        "homeId": 16,
+        "awayId": 12,
+        "location": "State Farm Stadium, Glendale, AZ",
+        "date": "2025-09-21",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game10",
+        "homeId": 19,
+        "awayId": 23,
+        "location": "Bank of America Stadium, Charlotte, NC",
+        "date": "2025-09-21",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game11",
+        "homeId": 20,
+        "awayId": 29,
+        "location": "U.S. Bank Stadium, Minneapolis, MN",
+        "date": "2025-09-26",
+        "time": "20:20:00"
+    },
+    {
+        "gameID": "game12",
+        "homeId": 21,
+        "awayId": 17,
+        "location": "Lambeau Field, Green Bay, WI",
+        "date": "2025-09-27",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game13",
+        "homeId": 22,
+        "awayId": 27,
+        "location": "Soldier Field, Chicago, IL",
+        "date": "2025-09-27",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game14",
+        "homeId": 24,
+        "awayId": 28,
+        "location": "Lincoln Financial Field, Philadelphia, PA",
+        "date": "2025-09-28",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game15",
+        "homeId": 25,
+        "awayId": 31,
+        "location": "FedExField, Landover, MD",
+        "date": "2025-09-28",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game16",
+        "homeId": 26,
+        "awayId": 16,
+        "location": "Bank of America Stadium, Charlotte, NC",
+        "date": "2025-10-03",
+        "time": "20:20:00"
+    },
+    {
+        "gameID": "game17",
+        "homeId": 27,
+        "awayId": 10,
+        "location": "Mercedes-Benz Stadium, Atlanta, GA",
+        "date": "2025-10-04",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game18",
+        "homeId": 28,
+        "awayId": 30,
+        "location": "Caesars Superdome, New Orleans, LA",
+        "date": "2025-10-04",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game19",
+        "homeId": 29,
+        "awayId": 32,
+        "location": "Raymond James Stadium, Tampa, FL",
+        "date": "2025-10-05",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game20",
+        "homeId": 30,
+        "awayId": 18,
+        "location": "MetLife Stadium, East Rutherford, NJ",
+        "date": "2025-10-05",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game21",
+        "homeId": 31,
+        "awayId": 7,
+        "location": "FirstEnergy Stadium, Cleveland, OH",
+        "date": "2025-10-10",
+        "time": "20:15:00"
+    },
+    {
+        "gameID": "game22",
+        "homeId": 32,
+        "awayId": 4,
+        "location": "TIAA Bank Field, Jacksonville, FL",
+        "date": "2025-10-11",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game23",
+        "homeId": 1,
+        "awayId": 5,
+        "location": "AT&T Stadium, Arlington, TX",
+        "date": "2025-10-11",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game24",
+        "homeId": 2,
+        "awayId": 12,
+        "location": "Gillette Stadium, Foxborough, MA",
+        "date": "2025-10-12",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game25",
+        "homeId": 3,
+        "awayId": 20,
+        "location": "Arrowhead Stadium, Kansas City, MO",
+        "date": "2025-10-12",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game26",
+        "homeId": 4,
+        "awayId": 21,
+        "location": "Highmark Stadium, Buffalo, NY",
+        "date": "2025-10-17",
+        "time": "20:15:00"
+    },
+    {
+        "gameID": "game27",
+        "homeId": 5,
+        "awayId": 9,
+        "location": "Hard Rock Stadium, Miami Gardens, FL",
+        "date": "2025-10-18",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game28",
+        "homeId": 6,
+        "awayId": 24,
+        "location": "MetLife Stadium, East Rutherford, NJ",
+        "date": "2025-10-18",
+        "time": "16:25:00"
+    },
+    {
+        "gameID": "game29",
+        "homeId": 7,
+        "awayId": 32,
+        "location": "M&T Bank Stadium, Baltimore, MD",
+        "date": "2025-10-19",
+        "time": "13:00:00"
+    },
+    {
+        "gameID": "game30",
+        "homeId": 8,
+        "awayId": 17,
+        "location": "Heinz Field, Pittsburgh, PA",
+        "date": "2025-10-19",
+        "time": "16:25:00"
+    }
+]
