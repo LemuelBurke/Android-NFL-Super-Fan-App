@@ -1,7 +1,7 @@
 **Mobile Development 2024/25 Portfolio**
 # Retrospective
 
-Student ID: `your id here`
+Student ID: `23015833`
 
 I think my project demonstrated effective use of core Android SDK components, including SharedPreferences for persistent user settings (favourite team selection), AlarmManager for in-app scheduling of notifications, and BroadcastReceivers to handle push notifications. Network status was handled via connectivity checks to ensure a smooth user experience, and the app supported both English and Welsh using Android's resource qualifiers. Dynamic content was rendered throughout, contributing to an interactive and responsive UI.
 
