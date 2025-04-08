@@ -8,8 +8,10 @@ import com.example.mob_dev_portfolio.R
 import com.example.mob_dev_portfolio.databinding.ItemUpcomingGameBinding
 import com.example.mob_dev_portfolio.models.UpcomingGame
 
-class UpcomingGamesAdapter(private val games: List<UpcomingGame>) :
-    RecyclerView.Adapter<UpcomingGamesAdapter.GameViewHolder>() {
+class UpcomingGamesAdapter(
+    private val games: List<UpcomingGame>,
+    private val calendarListener: CalendarEventListener
+) : RecyclerView.Adapter<UpcomingGamesAdapter.GameViewHolder>() {
 
     inner class GameViewHolder(val binding: ItemUpcomingGameBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -46,13 +48,12 @@ class UpcomingGamesAdapter(private val games: List<UpcomingGame>) :
 
             // Set other game info
             binding.gameId.text = game.gameID
-            binding.gameDate.text = game.date
+            binding.gameDate.text = game.date + " ${game.time} UTC"
             binding.venue.text = game.location
             binding.gameStartTime.text = "${game.time} UTC"
             binding.gameStatus.text = "@"
             binding.addToCalendarButton.setOnClickListener {
-                // For testing, show a log or a toast message
-                Toast.makeText(binding.root.context, "Button clicked!", Toast.LENGTH_SHORT).show()
+              calendarListener.onCalendarButtonClicked(game)
             }
 
         }
@@ -71,4 +72,10 @@ class UpcomingGamesAdapter(private val games: List<UpcomingGame>) :
     }
 
     override fun getItemCount(): Int = games.size
+    interface CalendarEventListener {
+        fun onCalendarButtonClicked(game: UpcomingGame)
+    }
+
+
+
 }

@@ -323,6 +323,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     // main activity func called after fav team selected
     private fun toMainApp() {
         val favoriteTeamName = sharedPreferences.getString("favorite_team", "Unknown Team")

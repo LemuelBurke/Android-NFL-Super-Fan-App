@@ -24,4 +24,13 @@
     <string name="upcoming_games">Gemau i ddod</string>
     <string name="add_to_calendar">Ychwanegu at galendr</string>
     <string name="emptyNull">-</string>
+    <string name="select_language">Iaith</string>
+    <string name="fav_team_logo">Hoff Dîm Newydd</string>
+    <string name="current_fav_team">Hoff Dîm</string>
+    <string name="change_fav_team">Newid Tîm</string>
+    <string name="draft">Drafft</string>
+    <string name="team">Tîm</string>
+    <string name="player">Chwaraewr</string>
+    <string name="game">Gêm</string>
+    <string name="all">Holl</string>
 </resources>

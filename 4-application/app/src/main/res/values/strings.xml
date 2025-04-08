@@ -22,11 +22,22 @@
     <string name="number">Number</string>
     <string name="sorry_no_data_can_be_displayed_try_again_later">Sorry, no data can be displayed\nTry again later!</string>
     <string name="settings">SETTINGS</string>
-    <string name="toggle_light_mode">Toggle Light Mode</string>
+    <string name="toggle_light_mode">Toggle Light Mode \(Doesn\'t Work\)</string>
     <string name="players">Players</string>
     <string name="season_games">Season Games</string>
     <string name="final_text">FINAL</string>
     <string name="upcoming_games">Upcoming Games</string>
-    <string name="add_to_calendar">ADD TO CALENDAR</string>
+    <string name="add_to_calendar">SCHEDULE ALARM</string>
     <string name="emptyNull">-</string>
+    <string name="select_language">Language</string>
+    <string name="welsh_language" translatable="false">Cymraeg</string>
+    <string name="english_language" translatable="false">English</string>
+    <string name="fav_team_logo">New Favourite Team</string>
+    <string name="current_fav_team">Favourite Team</string>
+    <string name="change_fav_team">Change Team</string>
+    <string name="draft">Draft</string>
+    <string name="team">Team</string>
+    <string name="player">Player</string>
+    <string name="game">Game</string>
+    <string name="all">All</string>
 </resources>

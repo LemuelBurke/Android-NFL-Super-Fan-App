@@ -2,8 +2,6 @@ package com.example.mob_dev_portfolio
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.Menu
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mob_dev_portfolio.databinding.ActivityWebviewBinding
@@ -31,7 +29,6 @@ class WebViewActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.home -> {
                     val intent = Intent(this, MainActivity::class.java)
-                    intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT
                     startActivity(intent)
                     finish()
                     true
@@ -39,6 +36,13 @@ class WebViewActivity : AppCompatActivity() {
 
                 R.id.news -> {
                     // Already on this screen
+                    true
+                }
+
+                R.id.statistics -> {
+                    val intent = Intent(this, StatisticsActivity::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 else -> false
