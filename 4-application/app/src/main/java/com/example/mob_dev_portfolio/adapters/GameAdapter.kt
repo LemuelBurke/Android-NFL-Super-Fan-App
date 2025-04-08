@@ -38,6 +38,7 @@ class GameAdapter(private val games: List<Game>) :
         }
     }
 
+    // Set up game item
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (holder) {
             is GameViewHolder -> {
@@ -67,6 +68,7 @@ class GameAdapter(private val games: List<Game>) :
         }
     }
 
+    // return items
     override fun getItemCount(): Int {
         return if (games.isEmpty()) 1 else games.size
     }

@@ -70,7 +70,7 @@ class UpcomingGamesAdapter(
         val game = games[position]
         holder.bind(game)
     }
-
+    // count items
     override fun getItemCount(): Int = games.size
     interface CalendarEventListener {
         fun onCalendarButtonClicked(game: UpcomingGame)

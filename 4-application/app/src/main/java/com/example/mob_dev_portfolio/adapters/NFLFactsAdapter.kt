@@ -3,16 +3,15 @@ package com.example.mob_dev_portfolio.adapters
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mob_dev_portfolio.databinding.ItemFactBinding
 import com.example.mob_dev_portfolio.models.FunFact
-import com.example.mob_dev_portfolio.models.NFLTeam
 
 class NFLFactsAdapter(private val context: Context, private var factsList: List<FunFact>) :
     RecyclerView.Adapter<NFLFactsAdapter.FactViewHolder>() {
 
+        // Colours for buttons, should be done in theme but was in rush
     private val factTypeColors = mapOf(
         "Game" to Color.parseColor("#3F51B5"),
         "Player" to Color.parseColor("#4CAF50"),
@@ -31,11 +30,13 @@ class NFLFactsAdapter(private val context: Context, private var factsList: List<
         return FactViewHolder(binding)
     }
 
+    // update facts list
     fun updateList(filteredFacts: List<FunFact>) {
         this.factsList = filteredFacts
         notifyDataSetChanged()  // Notify RecyclerView to update the list
     }
 
+    // setup fact items
     override fun onBindViewHolder(holder: FactViewHolder, position: Int) {
         val fact = factsList[position]
 
@@ -50,6 +51,7 @@ class NFLFactsAdapter(private val context: Context, private var factsList: List<
         }
     }
 
+    // count items
     override fun getItemCount(): Int = factsList.size
 
     class FactViewHolder(val binding: ItemFactBinding) : RecyclerView.ViewHolder(binding.root)

@@ -39,6 +39,7 @@ class FunFactWorker(context: Context, params: WorkerParameters) : Worker(context
         return Gson().fromJson(json, type)
     }
 
+    // show notif on device
     private fun showNotification(fact: FunFact) {
         val notificationManager =
             applicationContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager

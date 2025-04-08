@@ -22,6 +22,7 @@ class TeamAdapter(private var teams: List<NFLTeam>,
         return TeamViewHolder(binding)
     }
 
+    // create team items
     override fun onBindViewHolder(holder: TeamViewHolder, position: Int) {
         val team = teams[position]
         val binding = holder.binding
@@ -45,6 +46,7 @@ class TeamAdapter(private var teams: List<NFLTeam>,
         }
     }
 
+    // update recycle view
     fun updateTeams(newTeams: List<NFLTeam>) {
         teams = newTeams
         notifyDataSetChanged()

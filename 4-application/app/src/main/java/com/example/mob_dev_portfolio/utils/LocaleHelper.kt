@@ -7,7 +7,7 @@ object LocaleHelper {
     private const val SELECTED_LANGUAGE_KEY = "app_language"
 
     fun applyLocale(context: Context): Context {
-        return context // Modern Android handles this automatically
+        return context
     }
 
     fun setAppLocale(context: Context, language: String) {

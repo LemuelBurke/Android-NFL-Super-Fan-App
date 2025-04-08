@@ -1,4 +1,5 @@
-// GameModels.kt
+// data class for past games
+// used to retrofit the api response
 data class GameResponse(
     val get: String,
     val parameters: Parameters,

@@ -20,7 +20,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mob_dev_portfolio.MainActivity
 import com.example.mob_dev_portfolio.adapters.NFLFactsAdapter
 import com.example.mob_dev_portfolio.adapters.UpcomingGamesAdapter
 import com.example.mob_dev_portfolio.databinding.ActivityStatisticsBinding

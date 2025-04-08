@@ -1,5 +1,6 @@
 package com.example.mob_dev_portfolio.models
 
+// data class for all NFL teams in the JSON file
 data class NFLTeam(
     val id: Int,
     val name: String,

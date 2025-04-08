@@ -22,6 +22,7 @@ class PlayerAdapter(private val players: List<Player>) :
         return if (players.isEmpty()) TYPE_EMPTY else TYPE_PLAYER
     }
 
+    // create viewholder
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return if (viewType == TYPE_EMPTY) {
             EmptyViewHolder(
@@ -39,6 +40,7 @@ class PlayerAdapter(private val players: List<Player>) :
         }
     }
 
+    // create player items which fill recycler
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (holder) {
             is PlayerViewHolder -> {
@@ -58,6 +60,7 @@ class PlayerAdapter(private val players: List<Player>) :
         }
     }
 
+    //count items
     override fun getItemCount(): Int {
         return if (players.isEmpty()) 1 else players.size
     }

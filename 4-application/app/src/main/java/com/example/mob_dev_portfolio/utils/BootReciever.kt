@@ -10,11 +10,11 @@ import java.util.concurrent.TimeUnit
 
 class BootReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent?) {
-
+        // on app start queue notifications
         if (intent?.action == Intent.ACTION_BOOT_COMPLETED) {
 
             val workRequest = OneTimeWorkRequestBuilder<FunFactWorker>()
-                .setInitialDelay(15, TimeUnit.SECONDS)  // Adjust for testing
+                .setInitialDelay(15, TimeUnit.SECONDS)  // Short intervals for testing purposes
                 .build()
 
             WorkManager.getInstance(context).enqueue(workRequest)
