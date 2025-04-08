@@ -14,6 +14,7 @@ import android.provider.Settings
 import android.util.Log
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -26,6 +27,7 @@ import com.example.mob_dev_portfolio.databinding.ActivityStatisticsBinding
 import com.example.mob_dev_portfolio.models.FunFact
 import com.example.mob_dev_portfolio.models.NFLTeam
 import com.example.mob_dev_portfolio.models.UpcomingGame
+import com.example.mob_dev_portfolio.network.NetworkUtils
 import org.json.JSONArray
 import java.io.InputStream
 import java.text.SimpleDateFormat
@@ -106,7 +108,31 @@ class StatisticsActivity : AppCompatActivity(), UpcomingGamesAdapter.CalendarEve
         binding.allFilterButton.setOnClickListener{
             filterContent("all")
         }
+
+        checkInternetConnection()
     }
+
+
+    private fun checkInternetConnection() {
+        if (!NetworkUtils.isInternetConnected(this)) {
+            showNoInternetDialog()
+        }
+    }
+
+    private fun showNoInternetDialog() {
+        AlertDialog.Builder(this)
+            .setTitle("No Internet Connection")
+            .setMessage("Please connect to the internet to use this app.")
+            .setPositiveButton("Retry") { _, _ ->
+                recreate()
+            }
+            .setNegativeButton("Exit") { _, _ ->
+                finish()
+            }
+            .setCancelable(false)
+            .show()
+    }
+
     private fun filterContent(filterType: String) {
         try {
             // Load all facts from the method
