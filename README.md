@@ -13,7 +13,22 @@ The **NFL Fan App** is designed for British/Welsh based American football fans. 
 
 ---
 
-## 🖼 Application
+
+## 🚀 Key Features
+
+- **First-time Welcome Screen:** Guides users through app functionality on first launch, allowing users to select their preffered language and their favourite team.
+- **Shared Preferences:** Saves users selected language and favourited team, saves users from having to do this everytime they open the app.  
+- **In-app Alarm Manager:** Sends reminders for game start times.  
+- **Internet Connectivity Checks:** Ensures network-dependent features work correctly offline.  
+- **Bilingual Support:** Full English and Cymraeg (Welsh) translations are supported.  
+- **Push Notifications:** Alerts users when games are about to start and sends users random NFL 'Fun Facts'.  
+
+Full Application Breakdown
+---
+A full breakdown of the application and its functions can be viewed here.
+![Vieo Breakdown](6-video.mp4)
+
+## 🖼 Application at a glance
 <!-- Placeholder For Screenshots-->
 ### Welcome View
 When users open the app for the first time they are greeted with a welcome screen where they're asked to select their language English or Cymraeg (Welsh).
@@ -52,17 +67,6 @@ Users recieve notifications after not using the app for prolonged period of time
 
 ---
 
-## 🚀 Key Features
-
-- **First-time Welcome Screen:** Guides users through app functionality on first launch, allowing users to select their preffered language and their favourite team.
-- **Shared Preferences:** Saves users selected language and favourited team, saves users from having to do this everytime they open the app.  
-- **In-app Alarm Manager:** Sends reminders for game start times.  
-- **Internet Connectivity Checks:** Ensures network-dependent features work correctly offline.  
-- **Bilingual Support:** Full English and Cymraeg (Welsh) translations are supported.  
-- **Push Notifications:** Alerts users when games are about to start and sends users random NFL 'Fun Facts'.  
-
----
-
 ## ⚠️ Copyright, Trademark and General Notice
 
 Please note if you install this application it will not work as shown the API Key has been removed, this project was built to support the https://api-sports.io/ NFL API.
@@ -73,5 +77,6 @@ All rights to these logos and trademarks remain with the NFL and respective team
 
 © 2025 Morgan Burke. All rights reserved where applicable. 
 This project is free to download and use for **educational purposes only**. Commercial use and distribution without credit is **strictly prohibited**.
+
 
 
