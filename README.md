@@ -15,30 +15,37 @@ The **NFL Fan App** is designed for British/Welsh based American football fans. 
 
 ## 🖼 Application
 <!-- Placeholder For Screenshots-->
+### Welcome View
 When users open the app for the first time they are greeted with a welcome screen where they're asked to select their language English or Cymraeg (Welsh).
 
 ![Welcome Screen](screenshots-and-media/Welcome.gif)
 
-Following the selection of language users can pick their favourite team and can filter by conference.
+### Team Selection View
+Following the welcome users can pick their favourite team and can filter by conference.
 
 ![Team Selection](screenshots-and-media/TeamSel.gif)
 
+### Home View
 Users are then presented with the home screen, this is where users can view team lineups from the selected year as well as game history.
 
 ![Home Screen](screenshots-and-media/HomePage.gif)
 
+### Stats View
 Users can view upcoming games in the season as well as view statistics about past games, hall of famers and fun facts.
 
 ![Statistics Screen](screenshots-and-media/StatsPage.gif)
 
+### News View
 A webview connects directly with the NFL news site allowing users to get up to date news reports regarding the NFL.
 
 ![News Screen](screenshots-and-media/Newspage.gif)
 
+### Billingual Support
 The application support full translations of both English and Cymraeg (Welsh).
 
 ![Bilingual Support](screenshots-and-media/LanguageSel.gif)
 
+### Notifications
 Users recieve notifications after not using the app for prolonged period of time with fun facts about NFL to push them to engage with using the app.
 
 ![Notifications](screenshots-and-media/Notifs.gif)
@@ -66,4 +73,5 @@ All rights to these logos and trademarks remain with the NFL and respective team
 
 © 2025 Morgan Burke. All rights reserved where applicable. 
 This project is free to download and use for **educational purposes only**. Commercial use and distribution without credit is **strictly prohibited**.
+
 
