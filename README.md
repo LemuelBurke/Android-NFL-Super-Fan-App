@@ -4,6 +4,7 @@
 ![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)
 ![License](https://img.shields.io/badge/License-Educational-blue)
 
+*This project is no longer being worked on.*
 
 ---
 
@@ -77,6 +78,7 @@ All rights to these logos and trademarks remain with the NFL and respective team
 
 © 2025 Morgan Burke. All rights reserved where applicable. 
 This project is free to download and use for **educational purposes only**. Commercial use and distribution without credit is **strictly prohibited**.
+
 
 
 
