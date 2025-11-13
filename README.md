@@ -10,7 +10,7 @@
 
 ## Overview
 
-The **NFL Fan App** is designed for British/Welsh based American football fans. It provides access to team information, schedules, push notifications, and news, making it a convenient hub for following the National Football League (NFL) on mobile devices.
+The **NFL Fan App** is a mobile app designed for British/Welsh based American football fans who use Android. It provides access to team information, game schedules, push notifications, and news, making it a convenient hub for fans to follow the National Football League (NFL) on their mobile devices.
 
 ---
 
@@ -78,6 +78,7 @@ All rights to these logos and trademarks remain with the NFL and respective team
 
 © 2025 Morgan Burke. All rights reserved where applicable. 
 This project is free to download and use for **educational purposes only**. Commercial use and distribution without credit is **strictly prohibited**.
+
 
 
 
